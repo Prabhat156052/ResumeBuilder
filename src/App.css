@@ -1,0 +1,282 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sliderimg{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  
+}
+.nav{
+  list-style-type: none;
+  display: flex;
+  justify-content:space-around;
+  background-color:#9fb7b8;
+  width: auto;
+  height: 60px;
+  padding: 10px;
+  font-weight: bold;
+  
+
+}
+
+.nestednav{
+  list-style-type: none;
+  justify-content: center;
+  height: auto;
+  width: 150px;
+  padding: 10px;
+  background-color:seashell;
+}
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+.navContainer{
+  margin-left: 70px;
+}
+.multi-bg-example {
+  width: 100%;
+  height: 100px;
+  padding-top: 30px;
+  padding-left: 200px;
+  font-family: Arizonia, Helvetica, sans-serif;
+  background-image:
+      
+      linear-gradient(to bottom,rgba(255, 255, 255, 0),#008CBA, rgba(30, 75, 115, 1));
+  background-repeat: no-repeat,
+  repeat-xt,
+      no-repeat;
+  background-position: bottom right,
+      left,
+      right;
+}
+h1 {
+  font-family:Comic Sans MS; font-size: 40px;
+  
+}
+
+.button{
+  width: fit-content;
+  height: fit-content;
+  border:solid;
+  text-align: center;
+  font-weight: bolder;
+  margin:5px ;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #0ca5d8;
+}
+.button:hover {
+  background-color:  #008CBA;
+  color: white;
+}
+h1{
+  color:'#008CBA'
+}
+text{
+  border: auto;
+  width:0vmax;
+  padding:5px;
+  border-radius: .25rem;
+  font-size: 20px;
+  background-color: rgb(249, 249, 250);
+  margin: 0px;
+}
+
+label{
+  color:rgb(15, 14, 14);
+  font-family: Arial;
+  padding: 8px;
+  
+  text-align: left;
+}
+input{
+  margin-bottom: 8px;
+}
+textarea{
+  width: 80%;
+  border: auto;
+  padding: 8px;
+  font-family: Arial;
+  margin-top: 8px;
+}
+.footer{
+  
+  margin-top: 5px;
+  padding: 10px 5px 10px 5px;
+  border-style:none;
+  color: rgb(17, 16, 16);
+  background-image:  
+  linear-gradient(to right,rgba(255, 255, 255, 0),#008CBA, rgba(30, 75, 115, 1));
+  background-repeat: no-repeat,
+  no-repeat,
+  no-repeat;
+background-position: bottom right,
+  left,
+  right;
+  text-align: left;
+}
+.containerDesign{
+  height: 60%;
+  width: 30%;
+  text-align:justify;
+  font-size: 20px;
+  margin: 20px 400px;
+  padding: 30px;
+  background: rgba(177, 182, 177, 0.6);
+  border-radius: 20px;
+  display:inline-block;
+}
+
+.otplogin{
+  text-align: center;
+  
+  padding-top: 25px;
+  height: 200px;
+  background-color: cornsilk;
+}
+.contactcontainer{
+  height: 60%;
+  width: auto;
+  text-align:right;
+  font-size: 20px;
+  margin: 20px 30px;
+  padding: 10px;
+  background:white;
+  border-radius: 20px;
+  
+}
+hr{
+  background-color:blue;
+}
+div.gallery {
+  border:  none #ccc;
+  width: 20%;
+}
+div.gallery2{
+  width: 100%;
+  padding-left: 30px;
+ 
+
+}
+
+
+.profileImg{
+  border-radius: 50%;
+  align-items: center;
+
+}
+
+
+
+
+p{
+  font-size: 14px;
+}
+.template1{
+  height: 297mm;
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  width: 210mm;
+ 
+}
+ul.ui{
+  color:white;
+}
+.template2{
+  height: 297mm;
+  
+  width: 210mm;
+  display: flex;
+}
+.template3{
+  height: 297mm;
+  margin-top: 5px;
+  width: 210mm;
+  
+}
+.left-container{
+  background-color: rgba(22, 22, 22, 0.6);
+  padding: 5px;
+  color: white;
+  text-align: left;
+  width: 35%;
+}
+.right-container{
+  background-image:  
+  linear-gradient(to bottom,rgba(253, 253, 253, 0.6),rgba(163, 167, 163, 0.6));
+  padding: 20px;
+  color: rgb(8, 8, 8);
+  text-align: left;
+  width: 65%;
+
+}
+.title{
+  inline-size: auto;
+  writing-mode: horizontal-tb;
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+h5{
+  inline-size: auto;
+  text-align: center;
+  background-color: rgba(73, 72, 72, 0.6);
+  
+}
+h4{
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top:10px;
+  font-size: 20px;
+}
+.left{
+  width: 65%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.right{
+  width: 35%;
+  background-color:#93c2f5;
+  padding: 10px;
+
+  color: black;
+
+}
+.bottom{
+  display: flex;
+  height: 90%;
+  background-color: rgb(208, 216, 215);
+}
+.top{
+  background-image:  
+  linear-gradient(to bottom,#3173b4,#25a182);
+  padding: 20px;
+  height: 10%;
+  text-align: center;
+}
